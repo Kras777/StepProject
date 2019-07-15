@@ -1,0 +1,18 @@
+@media only screen and (min-width:992px) {
+  //.pricing-plan {
+  //  background: url("../img/Layer 2@1X.png");
+  //}
+  .pricing-plan-content-text {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .pricing-plan-content-pay {
+    margin-top: 50px;
+  }
+  .pricing-plan-content-title {
+    font-size: 36px;
+  }
+  .pricing-item {
+    flex: 0 0 10%;
+  }
+}

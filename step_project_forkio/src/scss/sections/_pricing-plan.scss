@@ -1,0 +1,97 @@
+
+
+.pricing-plan {
+  background-color: #4a3b4e;
+  padding-bottom: 50px;
+  margin-top: -7px;
+
+  &-after-price {
+    color: #8f8691;
+    text-align: center;
+    font-size: 12px;
+    font-family: '﻿Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-top: 24px;
+  }
+
+  &-content {
+
+    &-text {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    &-pay {
+      width: 100%;
+      height: 457px;
+      background-color: #5f5161;
+      margin-bottom: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-title {
+        width: 100%;
+        height: 97px;
+        background-color: #685b6a;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 255);
+        text-align: center;
+        text-transform: uppercase;
+        font-family: '﻿Montserrat', sans-serif;
+        line-height: 97px;
+        margin-bottom: 35px;
+        &-select {
+          width: 100%;
+          height: 111px;
+          background-color: #3a2d3d;
+          font-size: 18px;
+          color: rgba(255, 255, 255, 255);
+          text-align: center;
+          text-transform: uppercase;
+          font-family: '﻿Montserrat', sans-serif;
+          line-height: 111px;
+          margin-bottom: 15px;
+        }
+      }
+
+      &-line {
+        border: 3px solid #8d81ac;
+        width: 60px;
+        text-align: center;
+        margin-top: 35px;
+      }
+
+      &-licence {
+        width: 160px;
+        color: rgba(255, 255, 255, 255);
+        text-align: center;
+        font-family: '﻿Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 30px;
+        margin-bottom: auto;
+      }
+
+      &-select {
+        width: 100%;
+        height: 560px;
+        background-color: #413344;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    &-cost {
+      color: rgba(255, 255, 255, 255);
+      text-align: center;
+      font-family: '﻿Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 56px;
+    }
+  }
+}
+

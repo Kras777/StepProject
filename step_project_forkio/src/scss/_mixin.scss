@@ -1,0 +1,21 @@
+
+@mixin flex-between {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@mixin flex-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@mixin background-image {
+    background-position: center;
+    background-size: cover;
+}
+@mixin main-container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}

@@ -1,0 +1,44 @@
+.header{
+  &-wrapper {
+    background-image: url("../img/headerBackground.png");
+    @include background-image;
+  }
+  &-text{
+    text-align: center;
+    font-family: $main-font-1;
+    padding: 85px 0 450px;
+    box-sizing: border-box;
+    &-item{
+      color: $main-color;
+      font-size: 13px;
+      line-height: 2;
+      margin-bottom: 20px;
+      &-second{
+        font-size: 10px;
+        color: #848e97;
+        text-transform: uppercase;
+      }
+    }
+  }
+  &-title{
+    font-weight: $main-font-weight;
+    font-size: 35px;
+    color: $additional-color;
+    margin-bottom: 20px;
+  }
+  &-btn{
+    position: relative;
+    top: 50px;
+    &-text{
+      font-family: $main-font-1;
+      text-align: center;
+      padding-top: 20px;
+      font-size: 14px;
+      color: #848e97;
+    }
+  }
+}
+
+
+
+

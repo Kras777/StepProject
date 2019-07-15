@@ -1,0 +1,29 @@
+
+.btn {
+  background-color: $main-color;
+  border-radius: 44px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 700;
+  &-small{
+    padding: 10px 30px;
+  }
+  &-big{
+    display: block;
+    margin: 0 auto;
+    max-width: 290px;
+    padding: 12px 15px;
+  }
+  &-pricing-plan{
+    padding: 15px 38px;
+    background-color: #776b79;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+}
+

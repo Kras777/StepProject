@@ -1,0 +1,25 @@
+.title {
+  color: $additional-color;
+  font-size: 35px;
+  font-weight: $main-font-weight;
+  text-align: center;
+  padding: 50px 0 30px 0;
+  font-family: $main-font-1;
+}
+
+.presentation-content-title {
+    font-size: 20px;
+    color: rgba(99, 92, 115, 255);
+    padding-top: 120px;
+    text-transform: uppercase;
+
+}
+.preference-content-title {
+  padding: 35px 45px 35px 45px;
+  color: rgba(141, 129, 172, 255);
+  font-size: 28px;
+}
+.pricing-plan-content-title{
+  font-size: 22px;
+  padding-bottom: 55px;
+}

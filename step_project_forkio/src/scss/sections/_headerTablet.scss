@@ -1,0 +1,44 @@
+@media only screen and (min-width: 480px) {
+
+  .header-text-item {
+  font-size: 17px;
+}
+
+.header-title {
+  font-size: 52px;
+}
+.review-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.review-content-item {
+  flex: 0 0 50%;
+}
+
+.review-footer-text {
+  display: block !important;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  width: 75%;
+  color: #87778a;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+.padding-text {
+  padding-top: 8px;
+  box-sizing: border-box;
+}
+
+}
+@media only screen and (min-width: 700px) {
+  .navbar-menu-item {
+
+    padding: 30px 10px 10px;
+
+
+  }
+}

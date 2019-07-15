@@ -1,0 +1,86 @@
+@import "../variables";
+@import "../mixin";
+
+.navbar {
+  padding: 31px 0;
+  background-color: #27262a;
+
+
+  &-toggler {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+
+    &-line {
+      display: block;
+      height: 2px;
+      background-color: $additional-color;
+      margin-bottom: 7px;
+
+      &-small {
+        width: 20px;
+        margin-left: 6px;
+      }
+
+      &-big {
+        width: 26px;
+
+      }
+    }
+  }
+
+  &-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+  }
+
+  &-logo-img {
+    width: 43px;
+    height: 41px;
+    background-image: url("../img/navbar-logo@1X.png");
+  }
+
+  &-logo-text {
+    display: none;
+    text-transform: uppercase;
+    color: $main-color;
+    font-size: 24px;
+    font-family: $main-font-2;
+    font-weight: $main-font-weight;
+  }
+
+  &-menu {
+    position: absolute;
+    top: 103px;
+    right: 5%;
+    left: 5%;
+    padding-bottom: 5px;
+    background-color: #333333;
+
+    &-hidden {
+      display: none;
+
+    }
+
+    &-item {
+      border-bottom: 1px solid #3b3b3b;
+      padding: 35px 81px 35px 0;
+    }
+
+    &-link {
+      text-decoration: none;
+      font-family: $main-font-1;
+      color: $additional-color;
+      padding: 15px 0 15px 18px;
+      font-size: 19px;
+
+      &-active {
+        border-left: 8px solid $main-color;
+        color: $main-color;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,60 @@
+
+
+.presentation {
+
+  &-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+    &-text {
+      width: 100%;
+      font-family: 'Lato', sans-serif;
+      color: rgba(50, 50, 50, 255);
+      text-align: center;
+      font-size: 12px;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-bottom: 15px;
+      margin-top: 20px;
+    }
+    &-reviews {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+
+
+.reviews {
+  display: flex;
+  width: 120px;
+  height: 26px;
+  border: 1px #dddddd solid;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.button {
+  height: 27px;
+  margin-top: -1px;
+  font-weight: 700;
+}
+
+.button-text {
+  width: 40px;
+  line-height: 27px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.button-text2 {
+  width: 50px;
+  line-height: 27px;
+  font-weight: 700;
+  text-align: center;
+}

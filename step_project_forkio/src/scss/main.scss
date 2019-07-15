@@ -1,0 +1,12 @@
+@import "variables";
+
+@import "mixin";
+
+@import "components/components";
+
+@import "sections/sections";
+
+.container {
+ @include main-container;
+  box-sizing: border-box;
+}
